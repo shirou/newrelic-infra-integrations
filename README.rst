@@ -10,14 +10,20 @@ Available Integrations
 check_tcp
   check tcp connection is available
 
+
+Requirement
+-------------
+
+go 1.9 or higher
+
 How to use
 -------------
 
-1. go build
+1. cd integrations what you want to use and go build
 
-2. place exec binary and *-definition.yml to `/var/db/newrelic-infra/custom-integrations`
+2. place exec binary and \*-definition.yml to ``/var/db/newrelic-infra/custom-integrations``
 
-3. edit *-config.yml and place /etc/newrelic-infra/integrations.d.
+3. edit \*-config.yml and place ``/etc/newrelic-infra/integrations.d``.
 
 4. restart newrelic-infra agent
 
