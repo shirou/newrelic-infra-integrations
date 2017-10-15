@@ -1,0 +1,10 @@
+integration_name: info.tdoc.newrelic.check_tcp
+instances:
+  - name: check_tcp
+    command: check
+    arguments:
+      addr: 10.0.2.2:80
+      timeout: 100
+    labels:
+      environment: production
+      role: load_balancer

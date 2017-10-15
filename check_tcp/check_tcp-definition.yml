@@ -1,0 +1,11 @@
+name: info.tdoc.newrelic.check_tcp
+description: check TCP connectivity
+protocol_version: 1
+os: linux
+
+commands:
+  check:
+    command:
+      - ./check_tcp
+    prefix: services/check_tcp
+    interval: 30
